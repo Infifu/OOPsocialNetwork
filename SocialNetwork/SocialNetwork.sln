@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocialNetwork", "SocialNetwork.vcxproj", "{13C3B3EA-BAF7-4529-B7AE-299D1161C2A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13C3B3EA-BAF7-4529-B7AE-299D1161C2A7}.Debug|x64.ActiveCfg = Debug|x64
+		{13C3B3EA-BAF7-4529-B7AE-299D1161C2A7}.Debug|x64.Build.0 = Debug|x64
+		{13C3B3EA-BAF7-4529-B7AE-299D1161C2A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{13C3B3EA-BAF7-4529-B7AE-299D1161C2A7}.Debug|x86.Build.0 = Debug|Win32
+		{13C3B3EA-BAF7-4529-B7AE-299D1161C2A7}.Release|x64.ActiveCfg = Release|x64
+		{13C3B3EA-BAF7-4529-B7AE-299D1161C2A7}.Release|x64.Build.0 = Release|x64
+		{13C3B3EA-BAF7-4529-B7AE-299D1161C2A7}.Release|x86.ActiveCfg = Release|Win32
+		{13C3B3EA-BAF7-4529-B7AE-299D1161C2A7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3372AA39-5868-4D53-B405-666A9260B694}
+	EndGlobalSection
+EndGlobal
