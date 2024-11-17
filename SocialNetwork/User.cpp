@@ -13,7 +13,7 @@ void User::clear()
 	_id = 0;
 	_username = "";
 	_age = 0;
-	_list.clear();
+	//_list.clear() give an error.
 }
 
 unsigned int User::getID() const

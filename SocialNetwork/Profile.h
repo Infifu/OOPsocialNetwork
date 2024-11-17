@@ -11,12 +11,13 @@ private:
 public:
 	void init(User owner);
 	void clear();
-	User getOwner();
+	User getOwner() const;
 	void setStatus(std::string new_status);
 	void addPostToProfilePage(std::string post);
 	void addFriend(User friend_to_add);
-	std::string getPage();
-	std::string getFriends();
-	std::string getFriendsWithSameNameLength();
-
+	std::string getPage() const;
+	std::string getFriends() const;
+	std::string getFriendsWithSameNameLength() const;
+	void changeAllWordsInStatus(std::string word);
+	void changeWordInStatus(std::string word_to_replace, std::string new_word);
 };

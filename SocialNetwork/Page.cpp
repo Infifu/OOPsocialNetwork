@@ -28,5 +28,5 @@ void Page::setStatus(std::string status)
 
 void Page::addLineToPosts(std::string new_line)
 {
-	_posts = new_line + "\n";
+	_posts = _posts + new_line + "\n";
 }
