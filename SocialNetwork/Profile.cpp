@@ -104,10 +104,12 @@ void Profile::changeAllWordsInStatus(std::string word)
 void Profile::changeWordInStatus(std::string word_to_replace, std::string new_word)
 {
 	std::string status = _page.getStatus();
-	size_t index = status.find(word_to_replace); //size_t should be used for the find method
-	while (index != std::string::npos)//find method returns npos if nothing found so if status.find() == std::string::npos the string wasnt found
+	size_t index = status.find(word_to_replace);
+	while (index != std::string::npos)
 	{
 		status.replace(index, word_to_replace.size(), new_word);
-		index = status.find(word_to_replace);
+		index = status.find(word_to_replace, index + new_word.size());
 	}
+	_page.setStatus(status);
+ 
 }

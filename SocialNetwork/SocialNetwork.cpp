@@ -50,7 +50,7 @@ std::string SocialNetwork::getWindowsDevices()
 				deviceANDid = deviceANDid + "[" + deviceid + ", " + deviceCurr->get_data().getOS() + "]";
 				devicesString = devicesString + deviceANDid + ", ";
 				deviceid.clear();
-				devicesString.clear();
+				deviceANDid.clear();
 			}
 			deviceCurr = deviceCurr->get_next();
 		}
@@ -58,6 +58,6 @@ std::string SocialNetwork::getWindowsDevices()
 	}
 	devicesStringLength = devicesString.length();
 	if (devicesStringLength > 1)
-		devicesString.resize(devicesStringLength - 1);
+		devicesString.resize(devicesStringLength - 2);
 	return devicesString;
 }
