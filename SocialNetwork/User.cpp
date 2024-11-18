@@ -44,7 +44,7 @@ void User::addDevice(Device newDevice)
 bool User::checkIfDevicesAreOn() const
 {
 	DeviceNode *curr = _list.get_first();
-	while (curr)
+	while (curr) //loop through the devices to check if even one of them is not active
 	{
 		if (curr->get_data().isActive() == false)
 		{

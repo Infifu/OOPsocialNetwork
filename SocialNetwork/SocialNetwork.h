@@ -12,8 +12,8 @@ private:
 public:
 	void init(std::string networkName, int minAge);
 	void clear();
-	std::string getNetworkName();
-	int getMinAge();
+	std::string getNetworkName() const;
+	int getMinAge() const;
 	bool addProfile(Profile profile_to_add);
-	std::string getWindowsDevices();
+	std::string getWindowsDevices() const;
 };
